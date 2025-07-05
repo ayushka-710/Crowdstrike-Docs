@@ -1,6 +1,6 @@
 # Log Ingestion or Log Forwarding Architecture
 ## Log_Management_SIEM:
-This document outlines all the steps and procedures required to forward logs using rsyslog to the Humio Log Collector (CrowdStrike) and ultimately to the CrowdStrike Cloud.
+This document outlines all the steps and procedures required to forward logs using rsyslog towards Humio Log Collector (CrowdStrike) and ultimately to the CrowdStrike Cloud.
 
 ### Step-By-Step Procedures:
 1. Enable **ForwardToSyslog=yes** in **journald.conf**. Reference image **Screenshot 2025-05-27 at 11.19.32.png**
@@ -45,5 +45,5 @@ This document outlines all the steps and procedures required to forward logs usi
 
 
 ## Pod_FQL_SIEM:
- This folder contains images that illustrate the syslog-based log forwarding pipeline and architecture, along with the use of **Falcon Query  Language (FQL)** for security visibility and threat detection in **Kubernetes orchestration environments**.
+ This folder contain images that illustrate the syslog-based log forwarding pipeline and architecture, along with the use of **Falcon Query  Language (FQL)** for security visibility and threat detection in **Kubernetes orchestration environments**.
    
